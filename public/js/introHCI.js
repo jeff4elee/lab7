@@ -13,5 +13,5 @@ function initializePage() {
 }
 
 function gaSend(){
-	ga("send", "event", "like", "click");
+	gtag('event', 'click', {'event_category': 'like'})
 }
